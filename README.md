@@ -1,6 +1,6 @@
 用C语言实现简单的socket通信,
 
-服务端尝试了多进程(tcpServer.c)、非阻塞(tcpServerNonBlock.c)、epoll
+服务端尝试了多进程(tcpServer.c)、非阻塞(tcpServerNonBlock.c)、select机制(tcpServerSelect.c)、epoll
 
 客户端(tcpClient.c)
 
