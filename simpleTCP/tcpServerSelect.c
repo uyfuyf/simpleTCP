@@ -8,7 +8,7 @@
 #define BUFFER_SIZE 1024
 
 
-//多进程实现tcp server
+//select机制实现tcp server
 int main(){
     char listen_addr_srt[] = "0.0.0.0";
     size_t listen_addr = inet_addr(listen_addr_srt);
